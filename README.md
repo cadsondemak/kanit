@@ -1,4 +1,4 @@
-# Kanit Fonts
+# Kanit Font
 
 Kanit is a formal loopless Thai and Sans Latin typeface. It is a combination of Humanist Sans Serif with a curve of Capsulated Geometric style that suits for various usage in the present or even in the future. It was designed to have a 90 degree terminal in order to decrease spacing between each letter, but preserve readability and legibility even in a small point size.  
 
