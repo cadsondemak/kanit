@@ -8,5 +8,10 @@ A similarity between some glyphs such as  [ก ถ ภ ฤ ฦ] [ฎ ฏ] [บ �
 
 Formal loopless Thai tyefaces are simplified from a conservative looped Thai so this simplification has to be done properly in order to preserve the character.
 
+Sizes and positions of vowels and tone marks need to be managed carefully because they are all relevant to readability, legibility, and overall textures.
+
+Glyphs files (.glyphs) in the source folder can be opened in Glyphs program for further development.
+Font files (.ttf and .otf) in the fonts folder are compatible with Window, MacOS, and Linux system.
+
 The Kanit project is led by Cadson Demak, a type foundry in Thailand. To contribute, see github.com/cadsondemak/kanit
 
