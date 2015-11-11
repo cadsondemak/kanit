@@ -97,6 +97,9 @@ lookup ThaiTone.0E4D.narrow {
     sub uni0E4C by uni0E4D.narrow uni0E4C.small ;
 } ThaiTone.0E4D.narrow;
 
+#
+# This lookup will rewrite all Thai core composition
+#
 lookup ccmpThaiGeneralComposition {
   lookupflag 0;
 
@@ -127,3 +130,30 @@ lookup ccmpThaiGeneralComposition {
 feature ccmp {
   lookup ccmpThaiGeneralComposition;
 } ccmp;
+
+#
+# Fix incomplete subs & sups
+#
+# figure related features
+@num = [ zero one two three four five six seven eight nine ];
+@sups = [ zero.superior uni00B9 uni00B2 uni00B3 four.superior five.superior six.superior seven.superior eight.superior nine.superior ];
+@subs = [ zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior ];
+
+@add1 = [ parenleft parenright n ];
+@add1.sups = [ uni207D uni207E uni207F ];
+@add2 = [ parenleft parenright ];
+@add2.subs = [ uni208D uni208E ];
+@all.sups = [ @sups @add1.sups ];
+@all.subs = [ @subs @add2.subs ];
+
+feature sups {
+  lookup Latin.sups {
+    sub [ @num @add1 ] by @all.sups;
+  } Latin.sups;
+} sups;
+
+feature subs {
+  lookup Latin.subs {
+    sub [ @num @add2 ] by @all.subs;
+  } Latin.subs;
+} subs;

@@ -112,21 +112,6 @@ lookup sub_chain_locllatn_0 {
     sub [\L ]'lookup LigatureSubstitutionlookup17  [\periodcentered ]'lookup LigatureSubstitutionlookup17  [\L ] ;
 } sub_chain_locllatn_0;
 
-lookup subsSubscriptlookup8 {
-  lookupflag 0;
-    sub \parenleft by \uni208D ;
-    sub \parenright by \uni208E ;
-} subsSubscriptlookup8;
-
-lookup supsSuperscriptlookup9 {
-  lookupflag 0;
-    sub \one by \uni00B9 ;
-    sub \two by \uni00B2 ;
-    sub \three by \uni00B3 ;
-    sub \parenleft by \uni207D ;
-    sub \parenright by \uni207E ;
-} supsSuperscriptlookup9;
-
 lookup fracDiagonalFractionslookup10 {
   lookupflag 0;
     sub \one \slash \two  by \onehalf;
@@ -181,14 +166,6 @@ feature locl {
 feature ccmp {
     lookup ccmpGlyphCompositionDecompositi;
 } ccmp;
-
-feature subs {
-    lookup subsSubscriptlookup8;
-} subs;
-
-feature sups {
-    lookup supsSuperscriptlookup9;
-} sups;
 
 feature frac {
     lookup fracDiagonalFractionslookup10;
