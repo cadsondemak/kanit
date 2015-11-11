@@ -1,0 +1,118 @@
+$font-family: "Kanit";
+$class-name: "kanit";
+
+$weightnames: Thin 100, ExtraLight 200, Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800, Black 900;
+
+@mixin font-include($name, $weight, $style) {
+  font-family: $font-family;
+  src: url(../font/#{$name}.ttf) format('truetype');
+  font-weight: $weight;
+  font-style: $style;
+}
+
+@mixin font-class($weight, $style) {
+  font-family: $font-family;
+  font-weight: $weight;
+  font-style: $style;
+}
+
+/* Include all fonts & customized classes */
+@each $n in $weightnames {
+  $name: nth($n, 1);
+  $weight: nth($n, 2);
+
+  @font-face {
+    @include font-include(#{$font-family}-#{$name}, #{$weight}, normal);
+  }
+  @font-face {
+    @if $name == Regular {
+      @include font-include(#{$font-family}-Italic, #{$weight}, italic);
+    }
+    @else {
+      @include font-include(#{$font-family}-#{$name}Italic, #{$weight}, italic);
+    }
+  }
+  .#{$class-name}-#{$weight} {
+    @include font-class(#{$weight}, normal);
+  }
+  .#{$class-name}-#{$weight}i {
+    @include font-class(#{$weight}, italic);
+  }
+}
+
+@mixin vendor-prefix($name, $arg) {
+  -webkit-#{$name}: #{$arg};
+  -moz-#{$name}: #{$arg};
+  -ms-#{$name}: #{$arg};
+  #{$name}: #{$arg};
+}
+
+@mixin ot-feature($arg) {
+  @include vendor-prefix(font-feature-settings, #{$arg})
+}
+
+// Font options
+body {
+  font-family: $font-family;
+  @include ot-feature('"ccmp"');
+  @include ot-feature('"locl"');
+  @include vendor-prefix(font-kerning, normal);
+  @include vendor-prefix(font-variant, common-ligatures);
+
+  .test-text {
+    font-size: 36px;
+  }
+
+  .tnum {
+    @include ot-feature('"tnum"');
+  }
+  
+  .pnum {
+    @include ot-feature('"pnum"');
+  }
+  
+  sup, .sups {
+    @include ot-feature('"sups"');
+    vertical-align: unset;
+  }
+  
+  sub, .subs {
+    @include ot-feature('"subs"');
+    vertical-align: unset;
+  }
+  
+  .numr {
+    @include ot-feature('"numr"');
+    vertical-align: unset;
+  }
+  
+  .dnom {
+    @include ot-feature('"dnom"');
+    vertical-align: unset;
+  }
+  
+  .frac {
+    @include ot-feature('"frac"');
+  }
+
+  .ordn {
+    @include ot-feature('"ordn"');
+  }
+}
+
+/* Font selector */
+.select-form {
+  position: fixed;
+  z-index: 1000;
+  top: 15px;
+  right: 15px;
+  #font-selector {
+    padding: 02px 5px;
+    border: 1px solid darken( #fff, 10% );
+    border-radius: 0;
+    overflow: hidden;
+    background-color: #555;
+    color: #fff;
+    &:focus{ outline: none; }
+  }
+}

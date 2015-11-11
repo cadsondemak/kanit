@@ -1,0 +1,180 @@
+languagesystem DFLT dflt;
+languagesystem latn CAT ;
+languagesystem latn dflt;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+languagesystem thai dflt;
+languagesystem thai PAL;
+languagesystem thai SAN;
+
+#
+# CadsonDemak origin features
+#
+lookup aaltAccessAllAlternateslookup0 {
+  lookupflag 0;
+    sub \A by \ordfeminine ;
+    sub \O by \ordmasculine ;
+    sub \Scedilla by \Scommaaccent ;
+    sub \uni0162 by \uni021A ;
+    sub \a by \ordfeminine ;
+    sub \i by \dotlessi ;
+    sub \j by \uni0237 ;
+    sub \o by \ordmasculine ;
+    sub \scedilla by \scommaaccent ;
+    sub \uni0163 by \uni021B ;
+    sub \uni0E24 by \uni0E24.short ;
+    sub \uni0E26 by \uni0E26.short ;
+    sub \uni0E0E by \doChadathai.short ;
+    sub \uni0E0F by \toPatakthai.short ;
+    sub \uni0E0D by \yoYingthai.less ;
+    sub \uni0E10 by \thoThanthai.less ;
+    sub \uni0E2C by \loChulathai.short ;
+    sub \one by \uni00B9 ;
+    sub \two by \uni00B2 ;
+    sub \three by \uni00B3 ;
+    sub \uni0E31 by \uni0E31.narrow ;
+    sub \uni0E47 by \uni0E47.narrow ;
+    sub \uni0E34 by \uni0E34.narrow ;
+    sub \uni0E35 by \uni0E35.narrow ;
+    sub \uni0E36 by \uni0E36.narrow ;
+    sub \uni0E37 by \uni0E37.narrow ;
+    sub \uni0E4D by \uni0E4D.narrow ;
+    sub \uni0E3A by \uni0E3A.small ;
+    sub \uni0E38 by \uni0E38.small ;
+    sub \uni0E39 by \uni0E39.small ;
+} aaltAccessAllAlternateslookup0;
+
+lookup aaltAccessAllAlternateslookup1 {
+  lookupflag 0;
+    sub \parenleft from [\uni208D \uni207D ];
+    sub \parenright from [\uni208E \uni207E ];
+    sub \uni0E48 from [\uni0E48.small \uni0E48.narrow ];
+    sub \uni0E49 from [\uni0E49.small \uni0E49.narrow ];
+    sub \uni0E4A from [\uni0E4A.small \uni0E4A.narrow ];
+    sub \uni0E4B from [\uni0E4B.small \uni0E4B.narrow ];
+    sub \uni0E4C from [\uni0E4C.small \uni0E4C.narrow ];
+} aaltAccessAllAlternateslookup1;
+
+lookup SingleSubstitutionlookup13 {
+  lookupflag 0;
+    sub \i by \dotlessi ;
+    sub \j by \uni0237 ;
+    sub \uni0E24 by \uni0E24.short ;
+    sub \uni0E26 by \uni0E26.short ;
+    sub \uni0E0E by \doChadathai.short ;
+    sub \uni0E0F by \toPatakthai.short ;
+    sub \uni0E0D by \yoYingthai.less ;
+    sub \uni0E10 by \thoThanthai.less ;
+    sub \uni0E2C by \loChulathai.short ;
+    sub \uni0E48 by \uni0E48.small ;
+    sub \uni0E49 by \uni0E49.small ;
+    sub \uni0E4A by \uni0E4A.small ;
+    sub \uni0E4B by \uni0E4B.small ;
+    sub \uni0E4C by \uni0E4C.small ;
+    sub \uni0E3A by \uni0E3A.small ;
+    sub \uni0E38 by \uni0E38.small ;
+    sub \uni0E39 by \uni0E39.small ;
+} SingleSubstitutionlookup13;
+
+lookup ccmpGlyphCompositionDecompositi {
+  lookupflag 0;
+    sub [\i \j ]'lookup SingleSubstitutionlookup13  [\uni0308 \uni0307 \gravecomb \acutecomb \uni030B \uni0302 \uni030C \uni0306 
+	\uni030A \tildecomb \uni0304 \hookabovecomb ] ;
+    sub [\i \j ]'lookup SingleSubstitutionlookup13  [\uni031B \dotbelowcomb \uni0324 \uni0327 \uni0328 \uni032E \uni0331 ] [\uni0308 \uni0307 \gravecomb \acutecomb \uni030B \uni0302 \uni030C \uni0306 
+	\uni030A \tildecomb \uni0304 \hookabovecomb ] ;
+} ccmpGlyphCompositionDecompositi;
+
+lookup loclLocalizedFormsinLatinlookup {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \uni0162 by \uni021A ;
+    sub \scedilla by \scommaaccent ;
+    sub \uni0163 by \uni021B ;
+} loclLocalizedFormsinLatinlookup;
+
+lookup sub_single_locllatn_0 {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \uni0162 by \uni021A ;
+    sub \scedilla by \scommaaccent ;
+    sub \uni0163 by \uni021B ;
+} sub_single_locllatn_0;
+
+lookup LigatureSubstitutionlookup17 {
+  lookupflag 0;
+    sub \L \periodcentered  by \Ldot;
+    sub \l \periodcentered  by \ldot;
+} LigatureSubstitutionlookup17;
+
+lookup sub_chain_locllatn_0 {
+  lookupflag 0;
+    sub [\l ]'lookup LigatureSubstitutionlookup17  [\periodcentered ]'lookup LigatureSubstitutionlookup17  [\l ] ;
+    sub [\L ]'lookup LigatureSubstitutionlookup17  [\periodcentered ]'lookup LigatureSubstitutionlookup17  [\L ] ;
+} sub_chain_locllatn_0;
+
+lookup fracDiagonalFractionslookup10 {
+  lookupflag 0;
+    sub \one \slash \two  by \onehalf;
+    sub \one \slash \three  by \uni2153;
+    sub \two \slash \three  by \uni2154;
+    sub \one \slash \four  by \onequarter;
+    sub \three \slash \four  by \threequarters;
+    sub \one \slash \eight  by \oneeighth;
+    sub \three \slash \eight  by \threeeighths;
+    sub \five \slash \eight  by \fiveeighths;
+    sub \seven \slash \eight  by \seveneighths;
+} fracDiagonalFractionslookup10;
+
+lookup SingleSubstitutionlookup18 {
+  lookupflag 0;
+    sub \A by \ordfeminine ;
+    sub \O by \ordmasculine ;
+    sub \a by \ordfeminine ;
+    sub \o by \ordmasculine ;
+} SingleSubstitutionlookup18;
+
+lookup ordnOrdinalslookup11 {
+  lookupflag 0;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\A \a ]'lookup SingleSubstitutionlookup18  ;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\O \o ]'lookup SingleSubstitutionlookup18  ;
+} ordnOrdinalslookup11;
+
+lookup ligaStandardLigatureslookup12 {
+  lookupflag 0;
+    sub \f \i  by \fi;
+    sub \f \l  by \fl;
+    sub \uni0E24 \uni0E45  by \ru_lakkhangyaothai;
+    sub \uni0E26 \uni0E45  by \lu_lakkhangyaothai;
+} ligaStandardLigatureslookup12;
+
+
+feature aalt {
+    lookup aaltAccessAllAlternateslookup0;
+    lookup aaltAccessAllAlternateslookup1;
+} aalt;
+
+feature locl {
+    script latn;
+     language CAT  exclude_dflt;
+      lookup sub_chain_locllatn_0;
+     language MOL  exclude_dflt;
+      lookup sub_single_locllatn_0;
+     language ROM  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup;
+} locl;
+
+feature ccmp {
+    lookup ccmpGlyphCompositionDecompositi;
+} ccmp;
+
+feature frac {
+    lookup fracDiagonalFractionslookup10;
+} frac;
+
+feature ordn {
+    lookup ordnOrdinalslookup11;
+} ordn;
+
+feature liga {
+    lookup ligaStandardLigatureslookup12;
+} liga;

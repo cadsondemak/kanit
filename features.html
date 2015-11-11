@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="full" lang="th">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sungsit Sawaiwan" />
+
+    <title>Kanit Font</title>
+  
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Fonts CSS -->
+    <link href="css/fonts.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <form class="select-form print-hide">
+      <select name="font-selector" id="font-selector" onchange="fontSelector()">
+        <option value="kanit-100">Kanit 100</option>
+        <option value="kanit-100i">Kanit 100i</option>
+        <option value="kanit-200">Kanit 200</option>
+        <option value="kanit-200i">Kanit 200i</option>
+        <option value="kanit-300">Kanit 300</option>
+        <option value="kanit-300i">Kanit 300i</option>
+        <option value="kanit-400" selected>Kanit 400</option>
+        <option value="kanit-400i">Kanit 400i</option>
+        <option value="kanit-500">Kanit 500</option>
+        <option value="kanit-500i">Kanit 500i</option>
+        <option value="kanit-600">Kanit 600</option>
+        <option value="kanit-600i">Kanit 600i</option>
+        <option value="kanit-700">Kanit 700</option>
+        <option value="kanit-700i">Kanit 700i</option>
+        <option value="kanit-800">Kanit 800</option>
+        <option value="kanit-800i">Kanit 800i</option>
+        <option value="kanit-900">Kanit 900</option>
+        <option value="kanit-900i">Kanit 900i</option>
+      </select>
+    </form>
+
+    <h1>Kanit Font <br><small>OpenType Feature Test</small></h1>
+
+    <hr>
+
+    <p>Kanit is a formal loopless Thai and Sans Latin typeface. It is a combination of Humanist Sans Serif with a curve of Capsulated Geometric style that suits for various usage in the present or even in the future. It was designed to have a 90 degree terminal in order to decrease spacing between each letter, but preserve readability and legibility even in a small point size.</p>
+    <p>Kanit means methametics.</p>
+    <p>The Kanit project is led by Cadson Demak, a type foundry in Thailand. To contribute, see <a href="//github.com/cadsondemak/kanit">github.com/cadsondemak/kanit</a></p>
+
+    <hr>
+
+    <section id="thai">
+      <h4>ภาษาไทย (Standard Thai)</h4>
+
+      <div class="test-text">
+        <p>พี่ป๋ำฎูนู๋น้ำเป่าฝุ่นหญู่ก้นปี่</p>
+        <p>ฝุ่น<span style="color:red;">น้ำ</span>ท้องฟ้า ทุ่งหญ้า<span style="color:red;">ป้ำ</span>เป๋อ ชนชั้นกระฎุมพี เป่าปี่กตัญญู ดูนาฬิกา<span style="color:red;">ซ้ำ</span>ซ้อน</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="pal-san">
+      <h4>ภาษาบาลี/สันสกฤต (Pali/Sanskrit)</h4>
+
+      <div class="test-text">
+        <p lang="pi-Thai">ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ</p>
+      </div>
+
+      <p><small>Descenderless of “ญ” &amp; “ฐ” are preferable forms when specify <code>lang=pi</code> or <code>lang=sa</code> in HTML elements.</small></p>
+
+      <pre class="html"><code>&lt;p lang=&quot;pi-Thai&quot;&gt;ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ&lt;/p&gt;</code></pre>
+      <pre class="css"><code>body { font-feature-settings: &quot;locl&quot;; }</code></pre>
+    </section>
+
+    <hr>
+
+    <section id="minority-languages">
+      <h4>ภาษาชาติพันธุ์ (Minority languages)</h4>
+      <div class="test-text">
+        <p>ปะเฺติ็ลฺ โฺญฺ็จฺ ปั็วฮฺ ทฺ็อง เปฺิ็ว มูํย แต็่ง เจฺํอ<br>เปรฺิ่ห์ โจ๊่ เปฺี่ย โฺทร ม็่อง เติ็ง อาื ยาึ จือรฺุ การฺู</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="localized-forms">
+      <h4>Localized forms</h4>
+      <div class="test-text">
+        <p lang="ro">Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie kilowaţioră.</p>
+        <p lang="ca">COL&middot;LEGI cel&middot;la paral&middot;lelo col&middot;lecció</p>
+      </div>
+      <pre class="html"><code>&lt;p lang=&quot;ro&quot;&gt;Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie kilowaţioră.&lt;/p&gt;</code></pre>
+      <pre class="html"><code>&lt;p lang=&quot;ca&quot;&gt;COL·LEGI cel·la paral·lelo col·lecció&lt;/p&gt;</code></pre>
+    </section>
+
+    <hr>
+
+    <section id="ligatures">
+      <h4>ligatures</h4>
+      <div class="test-text">
+        <p>ฤๅษีมีข่าวฦๅ five flowers</p>
+      </div>
+      <pre class="css"><code>body { font-variant: common-ligatures; }</code></pre>
+    </section>
+
+    <hr>
+
+    <section id="fractions">
+      <h4>Fractions</h4>
+      <div class="test-text">
+        <p>1 ¼ 5 ½ 9 ¾ <span class="frac">1/3 2/3 1/8 3/8 5/8 7/8</span></p>
+        <p class="frac">12345/67890</p>
+      </div>
+      <pre class="html"><code>1&amp;thinsp;&amp;frac14; 5&amp;thinsp;&amp;frac12; 9&amp;thinsp;&amp;frac34; &lt;span class=&quot;frac&quot;&gt;1/3 2/3 1/8 3/8 5/8 7/8&lt;/span&gt;
+&lt;span class=&quot;frac&quot;&gt;12345/67890&lt;/span&gt;</code></pre>
+      <pre class="css"><code>.frac { font-feature-settings: &quot;frac&quot;; }</code></pre>
+    </section>
+
+    <hr>
+
+    <section id="sub-supe">
+      <h4>Subscripts &amp; Superscripts</h4>
+      <div class="test-text">
+        <p>H<sub>2</sub>O × 9.87<sup>654</sup> ≠ √π ÷ World<sup>3</sup>!</p>
+      </div>
+  
+      <pre class="html"><code>H&lt;sub&gt;2&lt;/sub&gt;O &amp;times; 9.87&lt;sup&gt;654&lt;/sup&gt; &amp;#x2260; &amp;radic;&amp;pi; &amp;divide; World&lt;sup&gt;3&lt;/sup&gt;!</code></pre>
+      <pre class="css"><code>sub { font-feature-settings: &quot;subs&quot;; }
+sup { font-feature-settings: &quot;sups&quot;; }</code></pre>
+    </section>
+
+    <hr>
+
+    <section id="ordinal">
+      <h4>Ordinal indicator</h4>
+      <div class="test-text">
+        <p class="ordn">9o 5a 7O 3A</p>
+      </div>
+  
+      <pre class="html"><code>&lt;p class=&quot;ordn&quot;&gt;9o 5a 7O 3A&lt;/p&gt;</code></pre>
+      <pre class="css"><code>.ordn { font-feature-settings: &quot;ordn&quot;; }</code></pre>
+    </section>
+
+    <hr>
+
+  </div>
+  <!-- /.container -->
+
+  <script src="js/font-selector.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+/* Include all fonts & customized classes */
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-ThinItalic.ttf) format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+.kanit-100 {
+  font-family: "Kanit";
+  font-weight: 100;
+  font-style: normal; }
+
+.kanit-100i {
+  font-family: "Kanit";
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-ExtraLight.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-ExtraLightItalic.ttf) format("truetype");
+  font-weight: 200;
+  font-style: italic; }
+.kanit-200 {
+  font-family: "Kanit";
+  font-weight: 200;
+  font-style: normal; }
+
+.kanit-200i {
+  font-family: "Kanit";
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-LightItalic.ttf) format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+.kanit-300 {
+  font-family: "Kanit";
+  font-weight: 300;
+  font-style: normal; }
+
+.kanit-300i {
+  font-family: "Kanit";
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-Italic.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+.kanit-400 {
+  font-family: "Kanit";
+  font-weight: 400;
+  font-style: normal; }
+
+.kanit-400i {
+  font-family: "Kanit";
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-MediumItalic.ttf) format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+.kanit-500 {
+  font-family: "Kanit";
+  font-weight: 500;
+  font-style: normal; }
+
+.kanit-500i {
+  font-family: "Kanit";
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-SemiBoldItalic.ttf) format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+.kanit-600 {
+  font-family: "Kanit";
+  font-weight: 600;
+  font-style: normal; }
+
+.kanit-600i {
+  font-family: "Kanit";
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-BoldItalic.ttf) format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+.kanit-700 {
+  font-family: "Kanit";
+  font-weight: 700;
+  font-style: normal; }
+
+.kanit-700i {
+  font-family: "Kanit";
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-ExtraBoldItalic.ttf) format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+.kanit-800 {
+  font-family: "Kanit";
+  font-weight: 800;
+  font-style: normal; }
+
+.kanit-800i {
+  font-family: "Kanit";
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit";
+  src: url(../font/Kanit-BlackItalic.ttf) format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+.kanit-900 {
+  font-family: "Kanit";
+  font-weight: 900;
+  font-style: normal; }
+
+.kanit-900i {
+  font-family: "Kanit";
+  font-weight: 900;
+  font-style: italic; }
+
+body {
+  font-family: "Kanit";
+  -webkit-font-feature-settings: "ccmp";
+  -moz-font-feature-settings: "ccmp";
+  -ms-font-feature-settings: "ccmp";
+  font-feature-settings: "ccmp";
+  -webkit-font-feature-settings: "locl";
+  -moz-font-feature-settings: "locl";
+  -ms-font-feature-settings: "locl";
+  font-feature-settings: "locl";
+  -webkit-font-kerning: normal;
+  -moz-font-kerning: normal;
+  -ms-font-kerning: normal;
+  font-kerning: normal;
+  -webkit-font-variant: common-ligatures;
+  -moz-font-variant: common-ligatures;
+  -ms-font-variant: common-ligatures;
+  font-variant: common-ligatures; }
+  body .test-text {
+    font-size: 36px; }
+  body .tnum {
+    -webkit-font-feature-settings: "tnum";
+    -moz-font-feature-settings: "tnum";
+    -ms-font-feature-settings: "tnum";
+    font-feature-settings: "tnum"; }
+  body .pnum {
+    -webkit-font-feature-settings: "pnum";
+    -moz-font-feature-settings: "pnum";
+    -ms-font-feature-settings: "pnum";
+    font-feature-settings: "pnum"; }
+  body sup, body .sups {
+    -webkit-font-feature-settings: "sups";
+    -moz-font-feature-settings: "sups";
+    -ms-font-feature-settings: "sups";
+    font-feature-settings: "sups";
+    vertical-align: unset; }
+  body sub, body .subs {
+    -webkit-font-feature-settings: "subs";
+    -moz-font-feature-settings: "subs";
+    -ms-font-feature-settings: "subs";
+    font-feature-settings: "subs";
+    vertical-align: unset; }
+  body .numr {
+    -webkit-font-feature-settings: "numr";
+    -moz-font-feature-settings: "numr";
+    -ms-font-feature-settings: "numr";
+    font-feature-settings: "numr";
+    vertical-align: unset; }
+  body .dnom {
+    -webkit-font-feature-settings: "dnom";
+    -moz-font-feature-settings: "dnom";
+    -ms-font-feature-settings: "dnom";
+    font-feature-settings: "dnom";
+    vertical-align: unset; }
+  body .frac {
+    -webkit-font-feature-settings: "frac";
+    -moz-font-feature-settings: "frac";
+    -ms-font-feature-settings: "frac";
+    font-feature-settings: "frac"; }
+  body .ordn {
+    -webkit-font-feature-settings: "ordn";
+    -moz-font-feature-settings: "ordn";
+    -ms-font-feature-settings: "ordn";
+    font-feature-settings: "ordn"; }
+
+/* Font selector */
+.select-form {
+  position: fixed;
+  z-index: 1000;
+  top: 15px;
+  right: 15px; }
+  .select-form #font-selector {
+    padding: 02px 5px;
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+    overflow: hidden;
+    background-color: #555;
+    color: #fff; }
+    .select-form #font-selector:focus {
+      outline: none; }
+
+/*# sourceMappingURL=fonts.css.map */
