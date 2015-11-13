@@ -10,6 +10,8 @@ Formal loopless Thai tyefaces are simplified from a conservative looped Thai so 
 
 Sizes and positions of vowels and tone marks need to be managed carefully because they are all relevant to readability, legibility, and overall textures.
 
+Ttfautohint supports Thai hinting process efficiently. It is an easy-to-use tool that is highly recommended. For more information, visit http://www.freetype.org/ttfautohint/
+
 Glyphs files (.glyphs) in the source folder can be opened in Glyphs program for further development.
 Font files (.ttf and .otf) in the fonts folder are compatible with Window, MacOS, and Linux system.
 
