@@ -1,0 +1,2238 @@
+@font-face {
+    font-family: 'KanitThinItalic';
+    src: url('./fonts/Kanit-ThinItalic.eot');
+    src: url('./fonts/Kanit-ThinItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-ThinItalic.woff2') format('woff2'),
+         url('./fonts/Kanit-ThinItalic.woff') format('woff'),
+         url('./fonts/Kanit-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitExtraLightItalic';
+    src: url('./fonts/Kanit-ExtraLightItalic.eot');
+    src: url('./fonts/Kanit-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-ExtraLightItalic.woff2') format('woff2'),
+         url('./fonts/Kanit-ExtraLightItalic.woff') format('woff'),
+         url('./fonts/Kanit-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitLightItalic';
+    src: url('./fonts/Kanit-LightItalic.eot');
+    src: url('./fonts/Kanit-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-LightItalic.woff2') format('woff2'),
+         url('./fonts/Kanit-LightItalic.woff') format('woff'),
+         url('./fonts/Kanit-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitItalic';
+    src: url('./fonts/Kanit-Italic.eot');
+    src: url('./fonts/Kanit-Italic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Italic.woff2') format('woff2'),
+         url('./fonts/Kanit-Italic.woff') format('woff'),
+         url('./fonts/Kanit-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitMediumItalic';
+    src: url('./fonts/Kanit-MediumItalic.eot');
+    src: url('./fonts/Kanit-MediumItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-MediumItalic.woff2') format('woff2'),
+         url('./fonts/Kanit-MediumItalic.woff') format('woff'),
+         url('./fonts/Kanit-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitSemiBoldItalic';
+    src: url('./fonts/Kanit-SemiBoldItalic.eot');
+    src: url('./fonts/Kanit-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-SemiBoldItalic.woff2') format('woff2'),
+         url('./fonts/Kanit-SemiBoldItalic.woff') format('woff'),
+         url('./fonts/Kanit-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitBoldItalic';
+    src: url('./fonts/Kanit-BoldItalic.eot');
+    src: url('./fonts/Kanit-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-BoldItalic.woff2') format('woff2'),
+         url('./fonts/Kanit-BoldItalic.woff') format('woff'),
+         url('./fonts/Kanit-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitExtraBoldItalic';
+    src: url('./fonts/Kanit-ExtraBoldItalic.eot');
+    src: url('./fonts/Kanit-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-ExtraBoldItalic.woff2') format('woff2'),
+         url('./fonts/Kanit-ExtraBoldItalic.woff') format('woff'),
+         url('./fonts/Kanit-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitBlackItalic';
+    src: url('./fonts/Kanit-BlackItalic.eot');
+    src: url('./fonts/Kanit-BlackItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-BlackItalic.woff2') format('woff2'),
+         url('./fonts/Kanit-BlackItalic.woff') format('woff'),
+         url('./fonts/Kanit-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitThin';
+    src: url('./fonts/Kanit-Thin.eot');
+    src: url('./fonts/Kanit-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Thin.woff2') format('woff2'),
+         url('./fonts/Kanit-Thin.woff') format('woff'),
+         url('./fonts/Kanit-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitExtraLight';
+    src: url('./fonts/Kanit-ExtraLight.eot');
+    src: url('./fonts/Kanit-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Kanit-ExtraLight.woff') format('woff'),
+         url('./fonts/Kanit-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitLight';
+    src: url('./fonts/Kanit-Light.eot');
+    src: url('./fonts/Kanit-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Light.woff2') format('woff2'),
+         url('./fonts/Kanit-Light.woff') format('woff'),
+         url('./fonts/Kanit-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitRegular';
+    src: url('./fonts/Kanit-Regular.eot');
+    src: url('./fonts/Kanit-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Regular.woff2') format('woff2'),
+         url('./fonts/Kanit-Regular.woff') format('woff'),
+         url('./fonts/Kanit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitMedium';
+    src: url('./fonts/Kanit-Medium.eot');
+    src: url('./fonts/Kanit-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Medium.woff2') format('woff2'),
+         url('./fonts/Kanit-Medium.woff') format('woff'),
+         url('./fonts/Kanit-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitSemiBold';
+    src: url('./fonts/Kanit-SemiBold.eot');
+    src: url('./fonts/Kanit-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-SemiBold.woff2') format('woff2'),
+         url('./fonts/Kanit-SemiBold.woff') format('woff'),
+         url('./fonts/Kanit-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitBold';
+    src: url('./fonts/Kanit-Bold.eot');
+    src: url('./fonts/Kanit-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Bold.woff2') format('woff2'),
+         url('./fonts/Kanit-Bold.woff') format('woff'),
+         url('./fonts/Kanit-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitExtraBold';
+    src: url('./fonts/Kanit-ExtraBold.eot');
+    src: url('./fonts/Kanit-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-ExtraBold.woff2') format('woff2'),
+         url('./fonts/Kanit-ExtraBold.woff') format('woff'),
+         url('./fonts/Kanit-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitBlack';
+    src: url('./fonts/Kanit-Black.eot');
+    src: url('./fonts/Kanit-Black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Black.woff2') format('woff2'),
+         url('./fonts/Kanit-Black.woff') format('woff'),
+         url('./fonts/Kanit-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitThin';
+    src: url('./fonts/Kanit-Thin.eot');
+    src: url('./fonts/Kanit-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Thin.woff2') format('woff2'),
+         url('./fonts/Kanit-Thin.woff') format('woff'),
+         url('./fonts/Kanit-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitExtraLight';
+    src: url('./fonts/Kanit-ExtraLight.eot');
+    src: url('./fonts/Kanit-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Kanit-ExtraLight.woff') format('woff'),
+         url('./fonts/Kanit-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitLight';
+    src: url('./fonts/Kanit-Light.eot');
+    src: url('./fonts/Kanit-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Light.woff2') format('woff2'),
+         url('./fonts/Kanit-Light.woff') format('woff'),
+         url('./fonts/Kanit-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitRegular';
+    src: url('./fonts/Kanit-Regular.eot');
+    src: url('./fonts/Kanit-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Regular.woff2') format('woff2'),
+         url('./fonts/Kanit-Regular.woff') format('woff'),
+         url('./fonts/Kanit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitMedium';
+    src: url('./fonts/Kanit-Medium.eot');
+    src: url('./fonts/Kanit-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Medium.woff2') format('woff2'),
+         url('./fonts/Kanit-Medium.woff') format('woff'),
+         url('./fonts/Kanit-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitSemiBold';
+    src: url('./fonts/Kanit-SemiBold.eot');
+    src: url('./fonts/Kanit-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-SemiBold.woff2') format('woff2'),
+         url('./fonts/Kanit-SemiBold.woff') format('woff'),
+         url('./fonts/Kanit-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitBold';
+    src: url('./fonts/Kanit-Bold.eot');
+    src: url('./fonts/Kanit-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Bold.woff2') format('woff2'),
+         url('./fonts/Kanit-Bold.woff') format('woff'),
+         url('./fonts/Kanit-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitExtraBold';
+    src: url('./fonts/Kanit-ExtraBold.eot');
+    src: url('./fonts/Kanit-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-ExtraBold.woff2') format('woff2'),
+         url('./fonts/Kanit-ExtraBold.woff') format('woff'),
+         url('./fonts/Kanit-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitBlack';
+    src: url('./fonts/Kanit-Black.eot');
+    src: url('./fonts/Kanit-Black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Black.woff2') format('woff2'),
+         url('./fonts/Kanit-Black.woff') format('woff'),
+         url('./fonts/Kanit-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitThin';
+    src: url('./fonts/Kanit-Thin.eot');
+    src: url('./fonts/Kanit-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Thin.woff2') format('woff2'),
+         url('./fonts/Kanit-Thin.woff') format('woff'),
+         url('./fonts/Kanit-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitExtraLight';
+    src: url('./fonts/Kanit-ExtraLight.eot');
+    src: url('./fonts/Kanit-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Kanit-ExtraLight.woff') format('woff'),
+         url('./fonts/Kanit-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitLight';
+    src: url('./fonts/Kanit-Light.eot');
+    src: url('./fonts/Kanit-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Light.woff2') format('woff2'),
+         url('./fonts/Kanit-Light.woff') format('woff'),
+         url('./fonts/Kanit-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitRegular';
+    src: url('./fonts/Kanit-Regular.eot');
+    src: url('./fonts/Kanit-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Regular.woff2') format('woff2'),
+         url('./fonts/Kanit-Regular.woff') format('woff'),
+         url('./fonts/Kanit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitMedium';
+    src: url('./fonts/Kanit-Medium.eot');
+    src: url('./fonts/Kanit-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Medium.woff2') format('woff2'),
+         url('./fonts/Kanit-Medium.woff') format('woff'),
+         url('./fonts/Kanit-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitSemiBold';
+    src: url('./fonts/Kanit-SemiBold.eot');
+    src: url('./fonts/Kanit-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-SemiBold.woff2') format('woff2'),
+         url('./fonts/Kanit-SemiBold.woff') format('woff'),
+         url('./fonts/Kanit-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitBold';
+    src: url('./fonts/Kanit-Bold.eot');
+    src: url('./fonts/Kanit-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Bold.woff2') format('woff2'),
+         url('./fonts/Kanit-Bold.woff') format('woff'),
+         url('./fonts/Kanit-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitExtraBold';
+    src: url('./fonts/Kanit-ExtraBold.eot');
+    src: url('./fonts/Kanit-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-ExtraBold.woff2') format('woff2'),
+         url('./fonts/Kanit-ExtraBold.woff') format('woff'),
+         url('./fonts/Kanit-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KanitBlack';
+    src: url('./fonts/Kanit-Black.eot');
+    src: url('./fonts/Kanit-Black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Kanit-Black.woff2') format('woff2'),
+         url('./fonts/Kanit-Black.woff') format('woff'),
+         url('./fonts/Kanit-Black.ttf') format('truetype');
+}
+
+#block-1 {
+  color: #356f47;
+  background-color: #333333;
+  height: 720px;
+}
+
+#block-1-header {
+  font-family: 'KanitLight';
+  font-size: 25pt;
+  line-height: 200%;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#name {
+  font-family: 'KanitMedium';
+  font-size: 90pt;
+}
+
+#block-2 {
+  height: 720px;
+  color: #333333;
+  background-color: #FFF;
+  font-family: 'KanitRegular';
+  font-size: 36pt;
+  line-height: 120%;
+  text-align: left;
+  padding-top: 100px;
+}
+
+#block-3 {
+  height: 720px;
+  background: url("img/block03_1.png") no-repeat center;
+  color: #356f47;
+  background-color: #333333;
+}
+
+#block-3-text {
+  font-family: 'KanitItalic';
+  font-size: 16pt;
+  line-height: 140%;
+  text-align: right;
+  padding-top: 195px;
+}
+
+#block-4 {
+  height: 720px;
+  background: url("img/block04_1.png") no-repeat center;
+  color: #333333;
+  background-color: #356f47;
+}
+
+#block-4-text {
+  font-family: 'KanitThin';
+  font-size: 20pt;
+  line-height: 120%;
+  text-align: right;
+  padding-top: 340px;
+}
+
+#block-5 {
+  color: #333333;
+  background-color: #FFF;
+  padding-bottom: 120px;
+}
+
+#block-5-Title {
+  font-family: 'KanitRegular';
+  font-size: 16pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+
+#block-5-text_sub {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+
+#block-5-text0 {
+  font-family: 'KanitThin';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-text1 {
+  font-family: 'KanitExtraLight';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#block-5-text2 {
+  font-family: 'KanitLight';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 55px;
+}
+
+#block-5-text3 {
+  font-family: 'KanitRegular';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 60px;
+}
+
+#block-5-text4 {
+  font-family: 'KanitMedium';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 65px;
+}
+
+#block-5-text5 {
+  font-family: 'KanitSemiBold';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 70px;
+}
+
+#block-5-text6 {
+  font-family: 'KanitBold';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-text7 {
+  font-family: 'KanitExtraBold';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-text8 {
+  font-family: 'KanitBlack';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-bottom: 120px;
+}
+
+#block-5-i-Title {
+  font-family: 'Kanit';
+  font-size: 16pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+
+#block-5-i-text_sub {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+
+#block-5-i-text0 {
+  font-family: 'KanitThinItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i-text1 {
+  font-family: 'KanitExtraLightItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#block-5-i-text2 {
+  font-family: 'KanitLightItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 55px;
+}
+
+#block-5-i-text3 {
+  font-family: 'KanitItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 60px;
+}
+
+#block-5-i-text4 {
+  font-family: 'KanitMediumItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 65px;
+}
+
+#block-5-i-text5 {
+  font-family: 'KanitSemiBoldItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 70px;
+}
+
+#block-5-i-text6 {
+  font-family: 'KanitBoldItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i-text7 {
+  font-family: 'KanitExtraBoldItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i-text8 {
+  font-family: 'KanitBlackItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-6 {
+  height: 720px;
+  background-color: #356f47;
+}
+
+#block-7-1 {
+  background: url("img/block07_1.jpg") no-repeat center;
+  background-size: cover;
+  height: 720px;
+  color: #FFF;
+  background-color: #356f47;
+}
+
+#block-7-1-text {
+  font-family: 'KanitItalic';
+  font-size: 16pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 250px;
+}
+
+#block-7-2 {
+  background: url("img/block07_2.jpg") no-repeat center;
+  background-size: cover;
+  height: 720px;
+  color: #FFF;
+  background-color: #356f47;
+}
+
+#block-7-2-text {
+  font-family: 'KanitLight';
+  font-size: 18pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 440px;
+}
+
+#block-7-3 {
+  background: url("img/block07_3.jpg") no-repeat center;
+  background-size: cover;
+  height: 720px;
+  color: #FFF;
+  background-color: #356f47;
+}
+
+#block-7-3-text1 {
+  font-family: 'KanitItalic';
+  font-size: 13pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 500px;
+}
+
+#block-7-3-text2 {
+  font-family: 'KanitBold';
+  font-size: 13pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 500px;
+}
+
+#block-Title {
+  color: #999999;
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-Title-1 {
+  color: #999999;
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-Title-2 {
+  color: #999999;
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+ul.nav > li > a {
+  color: #999999;
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+ul.nav > li.active > a {
+  color: #FFF;
+  background-color: #333333;
+  font-family: 'KanitSemiBold';
+  font-size: 12pt;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+#block-9 {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-9-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-9-Char {
+  font-family: 'KanitThin';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-Num {
+  font-family: 'KanitThin';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-Vowel {
+  font-family: 'KanitThin';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Sp-Char {
+  font-family: 'KanitThin';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Symbol {
+  font-family: 'KanitThin';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Ac-Char {
+  font-family: 'KanitThin';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Text1 {
+  font-family: 'KanitThin';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-9-Text2 {
+  font-family: 'KanitThin';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-9-Text3 {
+  font-family: 'KanitThin';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-9-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-9-i-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-9-i-Char {
+  font-family: 'KanitThinItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Num {
+  font-family: 'KanitThinItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Vowel {
+  font-family: 'KanitThinItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Sp-Char {
+  font-family: 'KanitThinItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Symbol {
+  font-family: 'KanitThinItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Ac-Char {
+  font-family: 'KanitThinItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Text1 {
+  font-family: 'KanitThinItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-9-i-Text2 {
+  font-family: 'KanitThinItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-9-i-Text3 {
+  font-family: 'KanitThinItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-10 {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-10-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-10-Char {
+  font-family: 'KanitExtraLight';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-Num {
+  font-family: 'KanitExtraLight';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-Vowel {
+  font-family: 'KanitExtraLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Sp-Char {
+  font-family: 'KanitExtraLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Symbol {
+  font-family: 'KanitExtraLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Ac-Char {
+  font-family: 'KanitExtraLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Text1 {
+  font-family: 'KanitExtraLight';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-10-Text2 {
+  font-family: 'KanitExtraLight';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-10-Text3 {
+  font-family: 'KanitExtraLight';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-10-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-10-i-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-10-i-Char {
+  font-family: 'KanitExtraLightItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Num {
+  font-family: 'KanitExtraLightItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Vowel {
+  font-family: 'KanitExtraLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Sp-Char {
+  font-family: 'KanitExtraLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Symbol {
+  font-family: 'KanitExtraLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Ac-Char {
+  font-family: 'KanitExtraLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Text1 {
+  font-family: 'KanitExtraLightItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-10-i-Text2 {
+  font-family: 'KanitExtraLightItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-10-i-Text3 {
+  font-family: 'KanitExtraLightItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-11 {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-11-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-11-Char {
+  font-family: 'KanitLight';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-Num {
+  font-family: 'KanitLight';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-Vowel {
+  font-family: 'KanitLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Sp-Char {
+  font-family: 'KanitLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Symbol {
+  font-family: 'KanitLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Ac-Char {
+  font-family: 'KanitLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Text1 {
+  font-family: 'KanitLight';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-11-Text2 {
+  font-family: 'KanitLight';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-11-Text3 {
+  font-family: 'KanitLight';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-11-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-11-i-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-11-i-Char {
+  font-family: 'KanitLightItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Num {
+  font-family: 'KanitLightItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Vowel {
+  font-family: 'KanitLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Sp-Char {
+  font-family: 'KanitLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Symbol {
+  font-family: 'KanitLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Ac-Char {
+  font-family: 'KanitLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Text1 {
+  font-family: 'KanitLightItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-11-i-Text2 {
+  font-family: 'KanitLightItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-11-i-Text3 {
+  font-family: 'KanitLightItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-12 {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-12-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-12-Char {
+  font-family: 'KanitRegular';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-Num {
+  font-family: 'KanitRegular';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-Vowel {
+  font-family: 'KanitRegular';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Sp-Char {
+  font-family: 'KanitRegular';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Symbol {
+  font-family: 'KanitRegular';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Ac-Char {
+  font-family: 'KanitRegular';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Text1 {
+  font-family: 'KanitRegular';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-12-Text2 {
+  font-family: 'KanitRegular';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-12-Text3 {
+  font-family: 'KanitRegular';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-12-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-12-i-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-12-i-Char {
+  font-family: 'KanitItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Num {
+  font-family: 'KanitItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Vowel {
+  font-family: 'KanitItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Sp-Char {
+  font-family: 'KanitItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Symbol {
+  font-family: 'KanitItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Ac-Char {
+  font-family: 'KanitItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Text1 {
+  font-family: 'KanitItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-12-i-Text2 {
+  font-family: 'KanitItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-12-i-Text3 {
+  font-family: 'KanitItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-13 {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-13-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-13-Char {
+  font-family: 'KanitMedium';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-Num {
+  font-family: 'KanitMedium';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-Vowel {
+  font-family: 'KanitMedium';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Sp-Char {
+  font-family: 'KanitMedium';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Symbol {
+  font-family: 'KanitMedium';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Ac-Char {
+  font-family: 'KanitMedium';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Text1 {
+  font-family: 'KanitMedium';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-13-Text2 {
+  font-family: 'KanitMedium';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-13-Text3 {
+  font-family: 'KanitMedium';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-13-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-13-i-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-13-i-Char {
+  font-family: 'KanitMediumItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Num {
+  font-family: 'KanitMediumItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Vowel {
+  font-family: 'KanitMediumItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Sp-Char {
+  font-family: 'KanitMediumItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Symbol {
+  font-family: 'KanitMediumItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Ac-Char {
+  font-family: 'KanitMediumItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Text1 {
+  font-family: 'KanitMediumItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-13-i-Text2 {
+  font-family: 'KanitMediumItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-13-i-Text3 {
+  font-family: 'KanitMediumItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-14 {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-14-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-14-Char {
+  font-family: 'KanitSemiBold';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-Num {
+  font-family: 'KanitSemiBold';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-Vowel {
+  font-family: 'KanitSemiBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Sp-Char {
+  font-family: 'KanitSemiBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Symbol {
+  font-family: 'KanitSemiBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Ac-Char {
+  font-family: 'KanitSemiBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Text1 {
+  font-family: 'KanitSemiBold';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-14-Text2 {
+  font-family: 'KanitSemiBold';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-14-Text3 {
+  font-family: 'KanitSemiBold';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-14-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-14-i-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-14-i-Char {
+  font-family: 'KanitSemiBoldItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Num {
+  font-family: 'KanitSemiBoldItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Vowel {
+  font-family: 'KanitSemiBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Sp-Char {
+  font-family: 'KanitSemiBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Symbol {
+  font-family: 'KanitSemiBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Ac-Char {
+  font-family: 'KanitSemiBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Text1 {
+  font-family: 'KanitSemiBoldItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-14-i-Text2 {
+  font-family: 'KanitSemiBoldItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-14-i-Text3 {
+  font-family: 'KanitSemiBoldItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+
+#block-15 {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-15-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-15-Char {
+  font-family: 'KanitBold';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-Num {
+  font-family: 'KanitBold';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-Vowel {
+  font-family: 'KanitBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Sp-Char {
+  font-family: 'KanitBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Symbol {
+  font-family: 'KanitBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Ac-Char {
+  font-family: 'KanitBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Text1 {
+  font-family: 'KanitBold';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-15-Text2 {
+  font-family: 'KanitBold';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-15-Text3 {
+  font-family: 'KanitBold';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-15-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-15-i-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-15-i-Char {
+  font-family: 'KanitBoldItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Num {
+  font-family: 'KanitBoldItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Vowel {
+  font-family: 'KanitBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Sp-Char {
+  font-family: 'KanitBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Symbol {
+  font-family: 'KanitBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Ac-Char {
+  font-family: 'KanitBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Text1 {
+  font-family: 'KanitBoldItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-15-i-Text2 {
+  font-family: 'KanitBoldItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-15-i-Text3 {
+  font-family: 'KanitBoldItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-16 {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-16-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-16-Char {
+  font-family: 'KanitExtraBold';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-Num {
+  font-family: 'KanitExtraBold';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-Vowel {
+  font-family: 'KanitExtraBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Sp-Char {
+  font-family: 'KanitExtraBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Symbol {
+  font-family: 'KanitExtraBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Ac-Char {
+  font-family: 'KanitExtraBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Text1 {
+  font-family: 'KanitExtraBold';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-16-Text2 {
+  font-family: 'KanitExtraBold';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-16-Text3 {
+  font-family: 'KanitExtraBold';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-16-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-16-i-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-16-i-Char {
+  font-family: 'KanitExtraBoldItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Num {
+  font-family: 'KanitExtraBoldItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Vowel {
+  font-family: 'KanitExtraBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Sp-Char {
+  font-family: 'KanitExtraBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Symbol {
+  font-family: 'KanitExtraBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Ac-Char {
+  font-family: 'KanitExtraBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Text1 {
+  font-family: 'KanitExtraBoldItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-16-i-Text2 {
+  font-family: 'KanitExtraBoldItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-16-i-Text3 {
+  font-family: 'KanitExtraBoldItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-17 {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-17-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-17-Char {
+  font-family: 'KanitBlack';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-Num {
+  font-family: 'KanitBlack';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-Vowel {
+  font-family: 'KanitBlack';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Sp-Char {
+  font-family: 'KanitBlack';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Symbol {
+  font-family: 'KanitBlack';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Ac-Char {
+  font-family: 'KanitBlack';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Text1 {
+  font-family: 'KanitBlack';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-17-Text2 {
+  font-family: 'KanitBlack';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-17-Text3 {
+  font-family: 'KanitBlack';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-17-i {
+  color: #333333;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-17-i-Title {
+  font-family: 'KanitLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-17-i-Char {
+  font-family: 'KanitBlackItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Num {
+  font-family: 'KanitBlackItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Vowel {
+  font-family: 'KanitBlackItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Sp-Char {
+  font-family: 'KanitBlackItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Symbol {
+  font-family: 'KanitBlackItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Ac-Char {
+  font-family: 'KanitBlackItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Text1 {
+  font-family: 'KanitBlackItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-17-i-Text2 {
+  font-family: 'KanitBlackItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-17-i-Text3 {
+  font-family: 'KanitBlackItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#Line1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #333333;
+}
+
+#Line2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #333333;
+}
