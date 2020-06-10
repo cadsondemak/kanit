@@ -1,0 +1,159 @@
+languagesystem DFLT dflt;
+languagesystem latn CAT ;
+languagesystem latn dflt;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+languagesystem thai dflt;
+languagesystem thai PAL;
+languagesystem thai SAN;
+
+include(gsub.fea)
+
+#
+# Patch
+#
+
+#
+# Thai global classes
+#
+
+# Normal (baseline) consonants
+@NC = [ uni0E01 uni0E02 uni0E03 uni0E04 uni0E05 uni0E06 uni0E07 uni0E08 uni0E09 uni0E0A uni0E0B uni0E0C uni0E11 uni0E12 uni0E13 uni0E14 uni0E15 uni0E16 uni0E17 uni0E18 uni0E19 uni0E1A uni0E1C uni0E1E uni0E20 uni0E21 uni0E22 uni0E23 uni0E24 uni0E25 uni0E26 uni0E27 uni0E28 uni0E29 uni0E2A uni0E2B uni0E2C uni0E2D uni0E2E uni0E2F ];
+
+# Ascender consonants (ป, ฝ, & ฟ) 
+@AC = [ uni0E1B uni0E1D uni0E1F ];
+
+lookup Thai0E2C.alt {
+  sub uni0E2C by loChulathai.short;
+} Thai0E2C.alt;
+
+# Strict Descender consonants (ฎ, ฏ)
+@DC = [ uni0E0E uni0E0F uni0E24 uni0E26 ];
+@DC.short = [ doChadathai.short toPatakthai.short uni0E24.short uni0E26.short ];
+
+lookup ThaiDC.alt {
+  lookupflag 0;
+    sub @DC by @DC.short;
+} ThaiDC.alt;
+
+# Removable descender consonants (ญ, ฐ)
+@RC = [ uni0E0D uni0E10 ];
+@RC.rd = [ yoYingthai.less thoThanthai.less ];
+
+lookup ThaiRC.rd {
+  sub @RC by @RC.rd;
+} ThaiRC.rd;
+
+@BASE = [ @NC @DC @RC @RC.rd ];
+
+# Below vowel/diacritic
+@BV = [ uni0E38 uni0E39 uni0E3A ];
+@BV.sd  = [ uni0E38.small uni0E39.small uni0E3A.small ];
+
+lookup ThaiBV.sd {
+  sub @BV by @BV.sd;
+} ThaiBV.sd;
+
+# Above vowel/diacritic
+@AV = [ uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47 uni0E4D ];
+@AV.sl = [ uni0E31.narrow uni0E34.narrow uni0E35.narrow uni0E36.narrow uni0E37.narrow uni0E47.narrow uni0E4D.narrow ];
+
+# Above tone/diacritic
+@T = [ uni0E48.small uni0E49.small uni0E4A.small uni0E4B.small uni0E4C.small ];
+@T.sd = [ uni0E48 uni0E49 uni0E4A uni0E4B uni0E4C ];
+@T.sdl = [ uni0E48.narrow uni0E49.narrow uni0E4A.narrow uni0E4B.narrow uni0E4C.narrow ];
+
+# Sara Am
+lookup ThaiDecomp {
+  lookupflag 0;
+    sub uni0E33 by uni0E4D uni0E32 ;
+} ThaiDecomp;
+
+lookup ThaiDecomp.narrow {
+  lookupflag 0;
+    sub uni0E33 by uni0E4D.narrow uni0E32 ;
+} ThaiDecomp.narrow;
+
+lookup ThaiSaraAmLakkhang {
+  lookupflag 0;
+    sub uni0E33 by uni0E32 ;
+} ThaiSaraAmLakkhang;
+
+lookup ThaiTone.0E4D {
+  lookupflag 0;
+    sub uni0E48 by uni0E4D uni0E48.small ;
+    sub uni0E49 by uni0E4D uni0E49.small ;
+    sub uni0E4A by uni0E4D uni0E4A.small ;
+    sub uni0E4B by uni0E4D uni0E4B.small ;
+    sub uni0E4C by uni0E4D uni0E4C.small ;
+} ThaiTone.0E4D;
+
+lookup ThaiTone.0E4D.narrow {
+  lookupflag 0;
+    sub uni0E48 by uni0E4D.narrow uni0E48.small ;
+    sub uni0E49 by uni0E4D.narrow uni0E49.small ;
+    sub uni0E4A by uni0E4D.narrow uni0E4A.small ;
+    sub uni0E4B by uni0E4D.narrow uni0E4B.small ;
+    sub uni0E4C by uni0E4D.narrow uni0E4C.small ;
+} ThaiTone.0E4D.narrow;
+
+#
+# This lookup will rewrite all Thai core composition
+#
+lookup ccmpThaiGeneralComposition {
+  lookupflag 0;
+
+    #sub @BASE @T.sd'lookup ThaiTone.0E4D [ uni0E33 ]'lookup ThaiSaraAmLakkhang ;
+    sub @BASE @T.sd'lookup ThaiTone.0E4D [ uni0E33 ];
+    sub uni0E4D [ @T ] [ uni0E33 ]'lookup ThaiSaraAmLakkhang ;
+    sub @BASE [ uni0E33 ]'lookup ThaiDecomp;
+
+    #sub @AC @T.sd'lookup ThaiTone.0E4D.narrow [ uni0E33 ]'lookup ThaiSaraAmLakkhang ;
+    sub @AC @T.sd'lookup ThaiTone.0E4D.narrow [ uni0E33 ];
+    sub uni0E4D.narrow [ @T ] [ uni0E33 ]'lookup ThaiSaraAmLakkhang ;
+    sub @AC [ uni0E33 ]'lookup ThaiDecomp.narrow;
+    sub @AC @BV @T.sd' by [ @T.sdl ];
+    sub @AC [ @AV @T.sd ]' by [ @AV.sl @T.sdl ];
+
+    sub [ @DC ]'lookup ThaiDC.alt @BV;
+    sub [ @DC.short ] @BV'lookup ThaiBV.sd;
+
+    sub [ @RC]'lookup ThaiRC.rd @BV;
+
+    sub [ uni0E2C ]'lookup Thai0E2C.alt [ @AV @T.sd ];
+
+    sub [ @AV.sl @T.sdl ] [ @AV @T.sd ]' by [ @AV.sl @T ];
+    sub [ @AV uni0E4E @AV.sl @T.sd ] @T.sd' by @T;
+
+} ccmpThaiGeneralComposition;
+
+feature ccmp {
+  lookup ccmpThaiGeneralComposition;
+} ccmp;
+
+#
+# Fix incomplete subs & sups
+#
+# figure related features
+@num = [ zero one two three four five six seven eight nine ];
+@sups = [ zero.superior uni00B9 uni00B2 uni00B3 four.superior five.superior six.superior seven.superior eight.superior nine.superior ];
+@subs = [ zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior ];
+
+@add1 = [ parenleft parenright n ];
+@add1.sups = [ uni207D uni207E uni207F ];
+@add2 = [ parenleft parenright ];
+@add2.subs = [ uni208D uni208E ];
+@all.sups = [ @sups @add1.sups ];
+@all.subs = [ @subs @add2.subs ];
+
+feature sups {
+  lookup Latin.sups {
+    sub [ @num @add1 ] by @all.sups;
+  } Latin.sups;
+} sups;
+
+feature subs {
+  lookup Latin.subs {
+    sub [ @num @add2 ] by @all.subs;
+  } Latin.subs;
+} subs;
